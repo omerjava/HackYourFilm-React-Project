@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/HackYourFilm-React-Project/static/css/main.6417938d.css",
+    "main.js": "/HackYourFilm-React-Project/static/js/main.460e0749.js",
+    "static/js/787.590b54ad.chunk.js": "/HackYourFilm-React-Project/static/js/787.590b54ad.chunk.js",
+    "index.html": "/HackYourFilm-React-Project/index.html",
+    "main.6417938d.css.map": "/HackYourFilm-React-Project/static/css/main.6417938d.css.map",
+    "main.460e0749.js.map": "/HackYourFilm-React-Project/static/js/main.460e0749.js.map",
+    "787.590b54ad.chunk.js.map": "/HackYourFilm-React-Project/static/js/787.590b54ad.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6417938d.css",
+    "static/js/main.460e0749.js"
+  ]
+}
