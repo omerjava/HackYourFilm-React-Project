@@ -1,0 +1,29 @@
+.filmList {
+  min-height: 410px;
+  color: rgb(21, 21, 21);
+}
+
+.filmList .thumbnail {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  gap: 20px;
+}
+
+.filmList .thumbnail:hover {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 980px) {
+  .filmList .thumbnail {
+    grid-template-columns: auto auto;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .filmList .thumbnail {
+    grid-template-columns: auto;
+  }
+}

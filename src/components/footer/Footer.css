@@ -1,0 +1,17 @@
+.footer {
+  height: 100px;
+  width: 100%;
+  background-color: rgb(10, 8, 8);
+  padding-top: 10px;
+  color: rgb(150, 128, 5);
+  position: relative;
+  bottom: 0;
+}
+
+.footer a {
+  color: rgb(170, 169, 169);
+}
+
+.footer a:hover {
+  color: rgb(129, 126, 126);
+}

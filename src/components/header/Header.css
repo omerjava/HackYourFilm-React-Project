@@ -1,0 +1,51 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(214, 172, 5);
+  padding: 15px;
+  border-top: 15px black solid;
+  border-bottom: 15px black solid;
+}
+
+.header span {
+  margin: 5px;
+}
+
+.header .best {
+  font-size: 34px;
+  font-weight: 900;
+  border-bottom: 2px rgb(214, 172, 5) solid;
+  padding-bottom: 5px;
+}
+
+.header .best:hover {
+  cursor: pointer;
+  border-bottom: 2px black solid;
+  padding-bottom: 5px;
+}
+
+.header input,
+select {
+  width: 240px;
+  height: 40px;
+  border-radius: 10px;
+  border: 2px rgb(12, 12, 12) solid;
+  font-size: medium;
+  text-align: center;
+}
+
+.header input:hover {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+@media only screen and (max-width: 650px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(214, 172, 5);
+    padding-top: 10px;
+  }
+}

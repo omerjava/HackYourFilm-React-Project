@@ -1,0 +1,6 @@
+.film {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+}
